@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/content"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+
+  <TextView
+    android:id="@+id/tittle"
+    style="@style/Tittle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:lineSpacingMultiplier="1.2" />
+
+  <ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+      <TextView
+        style="@style/gap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="16dp"
+        android:lineSpacingMultiplier="1.2"
+        android:text="示例: " />
+
+      <TextView
+        android:id="@+id/eg"
+        style="@style/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:lineSpacingMultiplier="1.2" />
+
+      <TextView
+        style="@style/gap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="16dp"
+        android:lineSpacingMultiplier="1.2"
+        android:text="解法: " />
+
+      <TextView
+        android:id="@+id/answer1"
+        style="@style/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:lineSpacingMultiplier="1.2" />
+
+      <TextView
+        android:id="@+id/answer2"
+        style="@style/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingStart="16dp"
+        android:lineSpacingMultiplier="1.2" />
+
+      <TextView
+        android:id="@+id/description"
+        style="@style/Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:lineSpacingMultiplier="1.2" />
+    </LinearLayout>
+  </ScrollView>
+</LinearLayout>

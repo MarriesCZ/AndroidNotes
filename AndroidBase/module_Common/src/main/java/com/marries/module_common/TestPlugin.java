@@ -1,4 +1,4 @@
-package com.marries.androidbase;
+package com.marries.module_common;
 
 import android.app.Activity;
 import android.view.View;
@@ -46,8 +46,8 @@ public class TestPlugin {
     floatingActionButton.setOnClickListener(new OnClickListener() {
       @Override
       public void onClick(View v) {
-        mListView
-            .setVisibility(mListView.getVisibility() == View.VISIBLE ? View.GONE : View.VISIBLE);
+        mListView.setVisibility(
+            mListView.getVisibility() == View.VISIBLE ? View.GONE : View.VISIBLE);
       }
     });
 
