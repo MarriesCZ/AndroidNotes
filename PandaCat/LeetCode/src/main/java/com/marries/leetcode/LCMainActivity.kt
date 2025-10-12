@@ -28,6 +28,7 @@ class LCMainActivity : FragmentActivity() {
         mBinding.pager.adapter = pagerAdapter
 
         TestPlugin(this).apply {
+            mBinding.mainKey.setImageResource(R.drawable.ic_home)
             mOnMainKeyClick = ::finish
         }
     }

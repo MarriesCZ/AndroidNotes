@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:viewportHeight="24"
+    android:viewportWidth="24"
+    android:width="24dp">
+
+    <!-- 屋顶 -->
+    <path
+        android:fillColor="#F44336"
+        android:pathData="M3,9 L12,2 L21,9 L21,10 L3,10 Z"
+        android:strokeColor="#D32F2F"
+        android:strokeWidth="0.5" />
+
+    <!-- 门 -->
+    <path
+        android:fillColor="#9C27B0"
+        android:pathData="M10,16 L10,19 L14,19 L14,16 C14,15.4 13.6,15 13,15 L11,15 C10.4,15 10,15.4 10,16 Z"
+        android:strokeColor="#7B1FA2"
+        android:strokeWidth="0.3" />
+
+    <!-- 门把手 -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M5,10 L5,19 L9,19 L9,14 L15,14 L15,19 L19,19 L19,10 L12,3 Z"
+        android:strokeColor="#1976D2"
+        android:strokeWidth="0.5" />
+
+    <!-- 窗户 -->
+    <path
+        android:fillColor="#4FC3F7"
+        android:pathData="M7,12 L7,14 L9,14 L9,12 Z"
+        android:strokeColor="#0288D1"
+        android:strokeWidth="0.3" />
+    <path
+        android:pathData="M8,12 L8,14"
+        android:strokeColor="#0288D1"
+        android:strokeWidth="0.2" />
+    <path
+        android:pathData="M7,13 L9,13"
+        android:strokeColor="#0288D1"
+        android:strokeWidth="0.2" />
+</vector>
