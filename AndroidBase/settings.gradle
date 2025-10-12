@@ -1,4 +1,0 @@
-include ':module_Common'
-include ':module_LeetCode'
-include ':app'
-rootProject.name = "AndroidBase"

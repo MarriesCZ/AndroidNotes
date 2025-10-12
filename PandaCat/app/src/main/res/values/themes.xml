@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PandaCat" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+    <style name="Theme.PandaCat" parent="Base.Theme.PandaCat" />
+</resources>
