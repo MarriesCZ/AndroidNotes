@@ -6,14 +6,28 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
+import com.google.auto.service.AutoService
 import com.marries.commonlib.TestPlugin
+import com.marries.commonlib.base.BaseActivity
+import com.marries.commonlib.mode.autoregister.IAutoRegisterInApp
 import com.marries.leetcode.databinding.LcMainActivityBinding
-import com.marries.leetcode.questions.*
+import com.marries.leetcode.questions.eight
+import com.marries.leetcode.questions.four
+import com.marries.leetcode.questions.nine
+import com.marries.leetcode.questions.one
+import com.marries.leetcode.questions.seven
+import com.marries.leetcode.questions.six
+import com.marries.leetcode.questions.ten
+import com.marries.leetcode.questions.three
+import com.marries.leetcode.questions.two
 
 
-class LCMainActivity : FragmentActivity() {
+@AutoService(IAutoRegisterInApp::class)
+class LCMainActivity : BaseActivity() {
 
     private lateinit var mBinding: LcMainActivityBinding
+
+    override fun getName(): String = "LeetCode算法题"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,10 +45,6 @@ class LCMainActivity : FragmentActivity() {
             mBinding.mainKey.setImageResource(R.drawable.ic_home)
             mOnMainKeyClick = ::finish
         }
-    }
-
-    private fun backHome() {
-
     }
 
     @Deprecated("Deprecated in Java")

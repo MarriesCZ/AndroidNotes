@@ -3,10 +3,7 @@ package com.marries.commonlib
 import android.app.Activity
 import android.view.View
 import android.widget.ArrayAdapter
-import android.widget.Button
-import android.widget.ListView
 import android.widget.RelativeLayout
-import com.google.android.material.floatingactionbutton.FloatingActionButton
 import androidx.core.view.isVisible
 import com.marries.commonlib.databinding.FloatListButtonBinding
 import com.marries.commonlib.databinding.FloatingbuttonBinding
