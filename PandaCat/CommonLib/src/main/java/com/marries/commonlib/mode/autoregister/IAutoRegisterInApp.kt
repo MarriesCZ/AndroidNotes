@@ -1,5 +1,6 @@
 package com.marries.commonlib.mode.autoregister
 
+import android.util.Log
 import java.util.ServiceLoader
 
 /**
@@ -14,4 +15,6 @@ interface IAutoRegisterInApp {
  * 获取所有标记的模块列表
  */
 fun getModuleList(): List<IAutoRegisterInApp> =
-    ServiceLoader.load(IAutoRegisterInApp::class.java).toList()
+    ServiceLoader.load(IAutoRegisterInApp::class.java).toList().also {
+        Log.d("AutoRegisterInApp", "getModuleList: ${it.toList()}")
+    }

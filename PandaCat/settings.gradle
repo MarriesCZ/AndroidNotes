@@ -33,3 +33,4 @@ rootProject.name = "PandaCat"
 include ':app'
 include ':CommonLib'
 include ':LeetCode'
+include ':UserManual'

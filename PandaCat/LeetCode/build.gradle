@@ -58,8 +58,6 @@ dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation project(path: ':CommonLib')
 
-    implementation libs.androidx.core.ktx
-    implementation libs.androidx.appcompat
-    implementation libs.material
-    implementation libs.androidx.viewpager2
+    // AutoService
+    kapt libs.auto.service
 }
