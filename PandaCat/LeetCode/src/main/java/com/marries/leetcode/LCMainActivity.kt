@@ -52,7 +52,7 @@ class LCMainActivity : BaseActivity() {
         if (mBinding.pager.currentItem == 0) {
             super.onBackPressed()
         } else {
-            mBinding.pager.currentItem = mBinding.pager.currentItem - 1
+            mBinding.pager.currentItem -= 1
         }
     }
 
@@ -61,6 +61,7 @@ class LCMainActivity : BaseActivity() {
 
         override fun createFragment(position: Int): Fragment {
             return when(position) {
+                0 -> one()
                 1 -> two()
                 2 -> three()
                 3 -> four()

@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PandaCat" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">false</item>
+    </style>
+
+    <style name="Theme.PandaCat" parent="Base.Theme.PandaCat">
+        <item name="themeColor">@color/orange</item>
+        <item name="windowBgColor">@color/paper_light</item>
+        <item name="dialogBgColor">@color/panda_light</item>
+        <item name="itemBgColor">@color/panda_light</item>
+        <item name="textColor">@color/panda_night</item>
+        <item name="textSummaryColor">@color/panda_night</item>
+
+        <item name="defaultRadius">16dp</item>
+        <item name="textLargeSize">24sp</item>
+        <item name="textNormalSize">18sp</item>
+        <item name="textSmallSize">16sp</item>
+
+        <item name="android:windowBackground">?windowBgColor</item>
+        <item name="android:textColor">?textColor</item>
+        <item name="android:textSize">?textNormalSize</item>
+    </style>
+</resources>

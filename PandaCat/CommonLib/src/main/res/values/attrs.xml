@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="mainTheme">
+        <!-- color -->
+        <attr name="themeColor" format="color"/>
+        <attr name="windowBgColor" format="color"/>
+        <attr name="dialogBgColor" format="color"/>
+        <attr name="itemBgColor" format="color"/>
+        <attr name="textColor" format="color"/>
+        <attr name="textSummaryColor" format="color"/>
+
+        <!-- dimen -->
+        <attr name="defaultRadius" format="dimension"/>
+        <attr name="textLargeSize" format="dimension"/>
+        <attr name="textNormalSize" format="dimension"/>
+        <attr name="textSmallSize" format="dimension"/>
+    </declare-styleable>
+</resources>

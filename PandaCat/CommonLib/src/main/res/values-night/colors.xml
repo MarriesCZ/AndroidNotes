@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="panda_night">#FFFFFFFF</color>
+    <color name="panda_light">#FF000000</color>
+    <color name="paper_light">#FF080F18</color>
+    <color name="orange">#FFFF8800</color>
+</resources>
